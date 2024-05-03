@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: library-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book
+    username: postgres
+    password: 1
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        highlight_sql: true
+        hbm2ddl.auto: none
+  flyway:
+    locations: classpath:db/migration
+    enabled: true
+
+server:
+  port: 8089
+
+logging:
+  level:
+    root: info
