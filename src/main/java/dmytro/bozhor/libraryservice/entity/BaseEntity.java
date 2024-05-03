@@ -1,4 +1,4 @@
-package com.dmytrobozhor.airlinereservationservice.domain;
+package dmytro.bozhor.libraryservice.entity;
 
 import java.io.Serializable;
 
